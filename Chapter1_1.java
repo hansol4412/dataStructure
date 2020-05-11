@@ -32,6 +32,7 @@ public class Chapter1_1 {
 		}
 	
 	static int mid(int a, int b, int c) {
+		// 세 값의 중간 값 구하는 mid 메서드를 작성하시오.
 		if(a>b) {
 			if(a<c) return a;
 			if(b<=c) return c;
@@ -67,7 +68,7 @@ public class Chapter1_1 {
 		System.out.println("mid(1,3,2) = " + mid(1, 3, 2)); // b＞c＞a
 		System.out.println("mid(2,3,3) = " + mid(2, 3, 3)); // b＝c＞a
 		System.out.println("mid(1,2,3) = " + mid(1, 2, 3)); // c＞b＞a
-		System.out.println("mid(2,2,3) = " + mid(2,2,3));
-		System.out.println("mid(2,1,3) = " + mid(2,1,3));
+		System.out.println("mid(2,2,3) = " + mid(2 ,2 ,3)); // c>a=b
+		System.out.println("mid(2,1,3) = " + mid(2, 1, 3)); // c>a>b
 	}
 }
